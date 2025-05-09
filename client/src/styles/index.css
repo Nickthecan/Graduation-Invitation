@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
+
+:root {
+    --green: #0f8663;
+    --black: #3a3d3c;
+    --white: #d5e6e1;
+}
+
+* {
+    font-family: "Cascadia Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+}

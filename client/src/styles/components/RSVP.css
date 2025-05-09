@@ -1,0 +1,55 @@
+.container-for-sign-up {
+    position: relative;
+    width: 80%;
+    height: fit-content;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.container-for-sign-up h1 {
+    font-size: 2.5rem;
+    text-shadow: var(--green) 0 3px;
+}
+
+.container-for-sign-up input {
+    height: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--black);
+    transition: all 0.2s ease-in-out;
+}
+
+.container-for-sign-up input:focus {
+    border-bottom: 1px solid var(--green);
+    outline: none;
+}
+
+.container-for-sign-up button {
+    height: 4rem;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid var(--green);
+    background-color: #fff;
+    font-size: 1.5rem;
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.50);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.confirmation-container button:active {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.error-description {
+    color: #c64040;
+}
