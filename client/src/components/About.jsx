@@ -17,6 +17,10 @@ const About = () => {
                 <p className='address'>1388 Fullerton Rd, Rowland Heights, CA 91748</p>
             </span>
             <span>
+                <h1>When</h1>
+                <p>June 7th, 2025</p>
+            </span>
+            <span>
                 <h1>Who</h1>
                 <p>You!!!</p>
                 <img className='thumbsup' src={thumbsup} alt="thumbs up" />

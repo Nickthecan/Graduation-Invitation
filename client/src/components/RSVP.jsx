@@ -21,7 +21,7 @@ const RSVP = ({ setConfirmation }) => {
             <h1>RSVP below!</h1>
             <input type="text" placeholder="Full Name" value={fullName} onChange={(e) => {setFullName(e.target.value)}}/>
             <button onClick={() => {rsvpToTheParty()}}>Submit</button>
-            {error && (<p className="">Please enter a name</p>)}
+            {error && (<p className="error-description">Please enter a name</p>)}
         </div>
     )
 }
