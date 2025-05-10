@@ -11,8 +11,9 @@ app = Flask(__name__)
 CORS(app)
 
 def connect_db():
-    myclient = pymongo.MongoClient()
-    mydb = myclient["mydatabase"]
+    myclient = pymongo.MongoClient(MONGODB_URI)
+    mydb = myclient["guests"]
+    print("connected to db")
     return mydb
 
 @app.route("/addUser", methods=["POST"])
@@ -20,12 +21,14 @@ def add_user():
     conn = connect_db()
     try:
         names = conn["names"]
-        name = {"name": request.args.get("name")}
+        print(names)
+        print(request.text)
+        """ name = {"name": request.text("name")}
         names.insert_one(name)
-        return jsonify({"name": name}), 200
+        return jsonify({"name": name}), 200 """
     except Exception as e:
         print("failed to add name")
-        return jsonify({"error": "failed to add name"}), 500
+        return jsonify({f"error": "failed to add name"}), 500
 
 
 
