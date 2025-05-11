@@ -56,3 +56,12 @@
 .error-description {
     color: #c64040;
 }
+
+@media only screen and (min-width: 768px) {
+    .container-for-sign-up input {
+        width: 50%;
+    }
+    .container-for-sign-up button {
+        width: 30%;
+    }
+}

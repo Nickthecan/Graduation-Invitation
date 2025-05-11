@@ -18,7 +18,7 @@ const About = () => {
             </span>
             <span>
                 <h1>When</h1>
-                <p>June 7th, 2025</p>
+                <p>Date: June 7th, 2025, Time: 6pm</p>
             </span>
             <span>
                 <h1>Who</h1>

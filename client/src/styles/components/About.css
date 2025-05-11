@@ -63,3 +63,15 @@ span:nth-child(1) {
     width: 100%;
     aspect-ratio: 1/1;
 }
+
+@media only screen and (min-width: 768px) {
+    .about-container .cc-logo {
+        height: 128px;
+    }
+
+    .about-container span + span img {
+        width: 50%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
