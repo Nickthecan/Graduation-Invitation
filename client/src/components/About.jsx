@@ -32,7 +32,7 @@ const About = () => {
             </span>
             <span>
                 <h1>What</h1>
-                <p>Chubby Cattle eat</p>
+                <p>Chubby Cattle eat <br /> <span className='disclaimer'>this is NOT coming from my own pocket mb but I am broke</span> </p>
                 <img className='cow' src={cow} alt="cow that you are going to eat" />
             </span>
         </div>

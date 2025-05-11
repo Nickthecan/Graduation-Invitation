@@ -64,6 +64,11 @@ span:nth-child(1) {
     aspect-ratio: 1/1;
 }
 
+.disclaimer {
+    font-size: 0.5rem;
+    color: var(--red);
+}
+
 @media only screen and (min-width: 768px) {
     .about-container .cc-logo {
         height: 128px;
@@ -73,5 +78,9 @@ span:nth-child(1) {
         width: 50%;
         margin-left: 50%;
         transform: translateX(-50%);
+    }
+    .disclaimer {
+        font-size: 0.8rem;
+        color: var(--red);
     }
 }
