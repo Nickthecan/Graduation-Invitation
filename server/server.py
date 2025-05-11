@@ -24,6 +24,10 @@ def add_user():
         data = request.get_json()
         if not data or 'name' not in data:
             return jsonify({"error": "Missing name"}), 400
+        
+        if names.find_one({'name': data['name']}):
+            return jsonify({"error": "name already RVSP'd"}), 409
+
         name = {"name": data['name']}
         result = names.insert_one(name)
         return jsonify({

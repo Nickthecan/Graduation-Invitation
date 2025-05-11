@@ -13,7 +13,7 @@ const About = () => {
                 <div className="image-cc">
                     <img className='cc-logo' src={chubbyCattleLogo} alt="" />
                 </div>
-                <iframe className='chubby-cattle-map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4001.4255434737415!2d-117.9013221!3d33.9935618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c32b101edbbe75%3A0xc27431bc81556ccb!2sChubby%20Cattle%20BBQ%20%7C%20Rowland%20Heights!5e1!3m2!1sen!2sus!4v1746811426449!5m2!1sen!2sus" allowFullScreen="false" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe className='chubby-cattle-map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4001.4255434737415!2d-117.9013221!3d33.9935618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c32b101edbbe75%3A0xc27431bc81556ccb!2sChubby%20Cattle%20BBQ%20%7C%20Rowland%20Heights!5e1!3m2!1sen!2sus!4v1746811426449!5m2!1sen!2sus" allowFullScreen={false} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 <p className='address'>1388 Fullerton Rd, Rowland Heights, CA 91748</p>
             </span>
             <span>
